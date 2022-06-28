@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: hsl(218, 23%, 16%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Manrope';
+font-family: 'Comfortaa';
+font-family: 'Kumbh Sans', sans-serif;
+font-family: 'League Spartan', sans-serif;
+font-family: 'M PLUS 1', sans-serif;
+font-family: 'Merriweather Sans', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Outfit', sans-serif;
+font-family: 'Quicksand', sans-serif;
+}
+
+.main {
+    min-width: 200px;
+    max-width: 500px;
+    min-height: auto;
+    background-color: hsl(217, 19%, 24%);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    
+}
+
+.advice {
+    color: hsl(150, 100%, 66%);
+    padding: 0 130px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-weight: 800;
+    letter-spacing: 2px;
+    font-size: 14px;
+}
+
+.frase {
+    text-align: center;
+    color: hsl(193, 38%, 86%);
+    font-size: 28px;
+    font-weight: 800;
+    padding: 0 40px;
+    padding-bottom: 30px;
+}
+
+#svg-1, #svg-2 {
+    margin-bottom: 30px;
+}
+
+#svg-2 {
+    display: none;
+}
+
+@media only screen and (max-width: 500px) {
+    #svg-1 {display: none;}
+    #svg-2 {display: flex;}
+}
+
+.boton {
+    margin-bottom: -20px;
+    background-color: hsl(150, 100%, 66%);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    cursor: pointer;
+}
+
+#svg-3 {
+    margin: auto;
+}
+
+.boton:hover {
+    -webkit-box-shadow: 0px 0px 30px 2px hsl(150, 100%, 66%); 
+box-shadow: 0px 0px 30px 2px hsl(150, 100%, 66%);
+
+}
